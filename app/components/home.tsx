@@ -130,6 +130,12 @@ function Screen() {
           <Route path={Path.Settings} element={<Settings />} />
         </Routes>
       </div>
+
+      <div className={styles["footer"]}>
+        <a href="https://beian.miit.gov.cn/" target="_blank">
+          沪ICP备2022008707号-1
+        </a>
+      </div>
     </div>
   );
 }
